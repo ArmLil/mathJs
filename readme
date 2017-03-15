@@ -1,6 +1,7 @@
 This repository consists of some maths tasks,
- algorithms in JavaScript.
+algorithms solved in JavaScript.
 
- 1. Find first 20 prime numbers
- 2. Solve a*x^2 + b*x + c = 0 equation
- 3. Find the sum of the digits of a number
+1. Find first 20 prime numbers
+2. Solve a*x^2 + b*x + c = 0 equation
+3. Find the sum of the digits of a number
+4. Find number with the greatest number of dividers in [a,b]
