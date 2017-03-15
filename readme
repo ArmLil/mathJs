@@ -1,4 +1,5 @@
 This repository consists of some maths tasks,
  algorithms in JavaScript.
 
- 1. How to find first 20 prime numbers
+ 1. Find first 20 prime numbers
+ 2. Solve a*x^2 + b*x + c = 0 equation
