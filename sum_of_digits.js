@@ -1,8 +1,8 @@
 'use strict'
 
-var m = 0   ;
+let m = 254   ;
 const sum_of_digits = function(n){
-  var sum = 0;
+  let sum = 0;
   while (n !== 0){
     let k = n % 10;
     sum += k;
