@@ -25,7 +25,7 @@ else console.log(`${a} is not prime`)
 */
 
 const pr_num = [];
-var j = 1;
+let j = 1;
 while(pr_num.length < 20){
 
   if (is_prime(j) === true){
