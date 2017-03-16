@@ -24,7 +24,7 @@ const num_of_div = function(n){
   return count;
 }
 
-var num = a;
+let num = a;
 for (let i = a + 1; i <= b; ++i){
   if (num_of_div(i) > num_of_div(num)){
     num = i;

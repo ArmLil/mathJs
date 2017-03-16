@@ -3,7 +3,7 @@ const a = 1; const b = -3; const c = -4;
 console.log(`Let's solve  (${a})*x^2 + (${b})*x + (${c}) = 0 equation`);
 
 const eqSol = (a,b,c) =>{
-  var result;
+  let result;
 
 if(a === 0){
     if ((b === 0) && (c !== 0)){
@@ -20,16 +20,16 @@ if(a === 0){
 }
 
 else{
-  const D = b*b - 4*a*c;
+  const D = b * b - 4 * a * c;
   console.log(`D = ${D}`);
 
   if(D === 0){
-    result = -b / 2*a;
+    result = -b / 2 * a;
   }
 
   else if(D > 0){
-    var x1 = (-b + Math.sqrt(D))/2*a;
-    var x2 = (-b - Math.sqrt(D))/2*a;
+    let x1 = (-b + Math.sqrt(D)) / 2 * a;
+    let x2 = (-b - Math.sqrt(D)) / 2 * a;
 
     // result = {x1,x2};
     result = `${x1},${x2}`;
